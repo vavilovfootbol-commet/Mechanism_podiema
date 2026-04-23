@@ -2,7 +2,7 @@ import math
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 
-def load_font(size=65):
+def load_font(size=150):
     try:
         return ImageFont.truetype("arial.ttf", size)
     except OSError:
@@ -12,7 +12,7 @@ def load_font(size=65):
             return ImageFont.load_default()
 
 
-FONT = load_font(65)
+FONT = load_font(150)
 
 
 def overlay_hoist_dimensions(mech_result, template_path, out_path="Eskiz-barbana_out.png", company_name=""):
