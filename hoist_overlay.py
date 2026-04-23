@@ -92,7 +92,7 @@ def overlay_hoist_dimensions(mech_result, template_path, out_path="Eskiz-barbana
         "company":   (4570, 3330),  # название фирмы
     }
 
-        # Тексты для подписей размеров
+    # Тексты для подписей размеров
     txt_L_b = f"{L_b:.0f}"
     txt_L_h = f"{L_h:.0f}"
     txt_L_g = f"{L_g:.0f}"
@@ -104,8 +104,8 @@ def overlay_hoist_dimensions(mech_result, template_path, out_path="Eskiz-barbana
     txt_t = f"{t:.0f}"
     txt_polispast = f"Кратность u = {u:.1f}; ветвей z = {z}; сдвоенный a = {a}"
 
-    if mass_total is not None:
-        txt_pipe_mass = f"{mass_total:.1f}"
+    if mass_per_m is not None:
+        txt_pipe_mass = f"{mass_per_m:.1f} кг"
     else:
         txt_pipe_mass = ""
 
