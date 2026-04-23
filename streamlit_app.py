@@ -173,7 +173,7 @@ if mech_result is not None:
 
     try:
         out_path = overlay_hoist_dimensions(mech_result, template_path, company_name=company_name)
-        st.image(out_path, caption="Эскиз барабана с размерами")
+        st.image(out_path, caption="Эскиз барабана с размерами", use_column_width=False)
     except FileNotFoundError:
         st.error(
             f"Не найден файл шаблона эскиза: {template_path}. "
