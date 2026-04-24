@@ -74,7 +74,7 @@ def overlay_hoist_dimensions(mech_result, template_path, out_path="Eskiz-barbana
 
     # Координаты (ПРИМЕР! – подгони под свой эскиз)
     coords = {
-        "L_b":       (100, 100),
+        "L_b":       (500, 100),
         "L_h":       (100, 200),
         "L_g":       (100, 300),
         "L_k":       (100, 400),
