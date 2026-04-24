@@ -12,7 +12,7 @@ def load_font(size=10000):
             return ImageFont.load_default()
 
 
-FONT = load_font(10000)
+FONT = load_font(5000)
 
 
 def overlay_hoist_dimensions(mech_result, template_path, out_path="Eskiz-barbana_out.png", company_name=""):
@@ -74,7 +74,7 @@ def overlay_hoist_dimensions(mech_result, template_path, out_path="Eskiz-barbana
 
     # Координаты (ПРИМЕР! – подгони под свой эскиз)
     coords = {
-        "L_b":       (500, 100),
+        "L_b":       (500, 90),
         "L_h":       (100, 200),
         "L_g":       (100, 300),
         "L_k":       (100, 400),
